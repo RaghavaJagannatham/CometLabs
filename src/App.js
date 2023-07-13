@@ -5,11 +5,12 @@ import data from './Data/data';
 import Attribute from './components/Attributes/Attribute';
 import features from './Data/features';
 import { Grid } from '@mui/material';
+import Header from './components/Header/Header'
 
 function App() {
   return (
     <div className="App">
-        
+        <Header />
         {/* Benefits has some icons that were taken from data.js file from Data folder */}
         <div className="benefit-div">
           {data.map((data) => {
