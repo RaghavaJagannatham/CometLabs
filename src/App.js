@@ -9,6 +9,7 @@ import Header from './components/Header/Header'
 import Testimonials from './components/Testimonials';
 import Testimonialsdata from './Data/testimonialsdata';
 import Footer from './components/Footer/Footer';
+import Form from './components/Form/Form';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Header />
         {/* Benefits has some icons that were taken from data.js file from Data folder */}
         <div className='Flexi'>
+          {/* Simple form is updated to the file folder */}
+          <Form />
             <div className="benefit">
             {data.map((data) => {
                 return <Benefit props={data} />;
