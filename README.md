@@ -72,3 +72,37 @@ Here are some screenshots of the Multor landing page:
 ## Deployment
 
 The Multor landing page is deployed using codesandbox. You can access the live demo [here](https://swqmy8-3000.csb.app/).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Video Demo
+
+You can watch a video demonstration of the CodeLabs landing page by clicking the link below:
+
+[![Multor Landing Page Demo](./src//utilities/images/Screenshot7.png)](./src//utilities/images/CometLabs.mp4)
+
+Click on the image above or use this [direct link](./demo-video.mp4) to watch the video.
+
+
