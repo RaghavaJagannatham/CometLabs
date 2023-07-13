@@ -71,4 +71,4 @@ Here are some screenshots of the Multor landing page:
 
 ## Deployment
 
-The Multor landing page is deployed using codesandbox. You can access the live demo [here](https://th8g48-3000.csb.app/).
+The Multor landing page is deployed using codesandbox. You can access the live demo [here](https://swqmy8-3000.csb.app/).
