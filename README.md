@@ -112,10 +112,11 @@ The Multor landing page is deployed using codesandbox. You can access the live d
   data-type="inline"
 />
 
-You can watch a video demonstration of the CodeLabs landing page by clicking the link below:
 
-[![Multor Landing Page Demo](./src//utilities/images/Screenshot7.png)]()
+## Video Demo
 
-Click on the image above or use this [direct link](./demo-video.mp4) to watch the video.
+You can watch the video demonstration of the Multor landing page by clicking the link below:
 
+**[Multor Landing Page Demo Video](https://play.vidyard.com/embed/v4.js)**
 
+Click the link to view the video.
