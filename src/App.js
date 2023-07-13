@@ -8,6 +8,7 @@ import { Grid } from '@mui/material';
 import Header from './components/Header/Header'
 import Testimonials from './components/Testimonials';
 import Testimonialsdata from './Data/testimonialsdata';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         })}
       </Grid>
       <About />
+      <Footer />
     </div>
   );
 }
