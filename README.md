@@ -1,4 +1,4 @@
-# Multor Landing Page
+#Comet Labs
 
 This is a landing page based on the Multor template. It showcases a modern, visually appealing design with a responsive layout and outstanding UI/UX.
 
