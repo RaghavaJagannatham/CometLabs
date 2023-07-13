@@ -96,27 +96,10 @@ The Multor landing page is deployed using codesandbox. You can access the live d
 
 
 
-
-## Video Demo
-
-<!-- The script tag should live in the head of your page if at all possible -->
-<script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
-
-<!-- Put this wherever you would like your player to appear -->
-<img
-  style="width: 100%; margin: auto; display: block;"
-  class="vidyard-player-embed"
-  src="https://play.vidyard.com/JwcsUaj49fhyMZgz8KcPyq.jpg"
-  data-uuid="JwcsUaj49fhyMZgz8KcPyq"
-  data-v="4"
-  data-type="inline"
-/>
-
-
 ## Video Demo
 
 You can watch the video demonstration of the Multor landing page by clicking the link below:
 
-**[Multor Landing Page Demo Video](https://play.vidyard.com/embed/v4.js)**
+**[CometLabs Assignment Landing Page Demo Video](https://share.vidyard.com/watch/JwcsUaj49fhyMZgz8KcPyq?)**
 
 Click the link to view the video.
