@@ -1,4 +1,5 @@
 import { Box, Container } from "@mui/material";
+import './Attribute'
 const Attribute = ({ props }) => {
   return (
     <Box style={{ width: "310px" }} className="feature-div">

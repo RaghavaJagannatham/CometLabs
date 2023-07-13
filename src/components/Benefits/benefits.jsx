@@ -1,4 +1,5 @@
 import * as React from "react";
+import './benefits'
 const Benefit = ({ props }) => {
   return (
     <div className="container-benefit">
