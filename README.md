@@ -1,14 +1,10 @@
-Sure! Here's an example of a README file that explains the Multor landing page:
+#Comet Labs
 
----
-
-# Multor Landing Page
-
-This is a landing page based on the Multor template. It showcases a modern and visually appealing design with responsive layout and outstanding UI/UX.
+This is a landing page based on the Multor template. It showcases a modern, visually appealing design with a responsive layout and outstanding UI/UX.
 
 ## Live Demo
 
-You can access the live demo of the Multor landing page [here](https://multor-landing-page.netlify.app/).
+You can access the live demo of the Multor landing page [here](https://th8g48-3000.csb.app/).
 
 ## Description
 
@@ -35,13 +31,13 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/RaghavaJagannatham/CometLabs
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd multor-landing-page
+   cd CometLabs
    ```
 
 3. Install the dependencies:
@@ -74,16 +70,4 @@ Here are some screenshots of the Multor landing page:
 
 ## Deployment
 
-The Multor landing page is deployed using Netlify. You can access the live demo [here](https://multor-landing-page.netlify.app/).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to modify the content and structure of this README file to fit your needs. Include relevant information, such as installation instructions, additional screenshots, or any other details specific to your implementation.
-
-Remember to update the placeholders `<repository-url>` with the actual URL of your repository and add the appropriate screenshot files to the `screenshots` folder in your project.
-
-I hope this example helps you create a README file for your Multor landing page project. If you have any further questions, feel free to ask!
+The Multor landing page is deployed using codesandbox. You can access the live demo [here](https://th8g48-3000.csb.app/).
