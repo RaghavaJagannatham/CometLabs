@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Header_styles.css";
 const Header = () => {
   return (
     <div className="container" id="heading-container">

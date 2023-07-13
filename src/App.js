@@ -1,59 +1,78 @@
-import './App.css';
-import About from './components/About/About';
-import Benefit from './components/Benefits/benefits';
-import data from './Data/data';
-import Attribute from './components/Attributes/Attribute';
-import features from './Data/features';
-import { Grid } from '@mui/material';
-import Header from './components/Header/Header'
-import Testimonials from './components/Testimonials';
-import Testimonialsdata from './Data/testimonialsdata';
-import Footer from './components/Footer/Footer';
-import Form from './components/Form/Form';
-import Video from './components/video/video';
-import './App.css'
+import Benefit from "./components/BenefitsSection/Benefits";
+import Footer from "./components/FooterSection/Footer";
+import Form from "./components/FormSection/Form";
+import Header from "./components/HeaderSection/Header";
+import ProductVideo from "./components/ProductVideoSection/ProductVideo";
+import Feature from "./components/FeatureSection/Feature";
+import About from "./components/AboutSection/About";
+import Testimonials from "./components/Testimonials";
+import data from "./utilities/data";
+import TestimonialData from "./utilities/TestimonialData";
+import featureList from "./utilities/featureList";
+import { Grid } from "@mui/material";
+import "./styles.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-        <Header />
-        {/* Benefits has some icons that were taken from data.js file from Data folder */}
-        <div className='Flexi'>
-          {/* Simple form is updated to the file folder */}
-          <Form />
-            <div className="benefit">
-            {data.map((data) => {
-                return <Benefit props={data} />;
-            })}
-            </div>
+      <Header />
+      <div className="Flexi-div">
+        <Form />
+        <div className="benefit-div">
+          {data.map((data) => {
+            return <Benefit props={data} />;
+          })}
         </div>
-
-        {/* Video */}
-        <Video />
-
-        {/* Testimonials data */}
-        <div>
-          {Testimonialsdata.map((data) => {
+      </div>
+      <ProductVideo />
+      <Grid
+        container
+        gap={6}
+        direction="column"
+        padding={4}
+        sx={{ mb: 10 }}
+        justifyContent="center"
+        alignItems="center"
+      >
+        <h3
+          style={{
+            paddingTop: "5rem",
+            fontSize: "12px",
+            letterSpacing: "2px",
+            paddingBottom: "2rem",
+            color: "#07C3C6",
+            fontWeight: "900"
+          }}
+        >
+          Don't just take our word for it.
+        </h3>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-between",
+            width: "90%"
+          }}
+        >
+          {TestimonialData.map((data) => {
             return <Testimonials props={data} />;
           })}
         </div>
-        {/* Attribiutes of the page Section */}
-        <Grid
+      </Grid>
+      <Grid
         container
         gap={6}
         direction="row"
         justifyContent="center"
         alignItems="center"
       >
-        {/* Took data from the features.js that have data of features */}
-        {features.map((data) => {
-          return <Attribute props={data} />;
+        {featureList.map((data) => {
+          return <Feature props={data} />;
         })}
+        <About />
       </Grid>
-      <About />
+
       <Footer />
     </div>
   );
 }
-
-export default App;

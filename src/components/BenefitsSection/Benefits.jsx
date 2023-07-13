@@ -1,5 +1,5 @@
 import * as React from "react";
-import './benefits'
+import "./Benefits_styles.css";
 const Benefit = ({ props }) => {
   return (
     <div className="container-benefit">

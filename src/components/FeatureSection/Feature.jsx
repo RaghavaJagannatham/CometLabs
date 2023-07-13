@@ -1,6 +1,6 @@
 import { Box, Container } from "@mui/material";
-import './Attribute'
-const Attribute = ({ props }) => {
+import "./Feature_styles.css";
+const Feature = ({ props }) => {
   return (
     <Box style={{ width: "310px" }} className="feature-div">
       <Container className="image-feature-div">
@@ -13,4 +13,4 @@ const Attribute = ({ props }) => {
     </Box>
   );
 };
-export default Attribute;
+export default Feature;

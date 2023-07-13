@@ -1,8 +1,8 @@
 import { Box, Container, Typography } from "@mui/material";
 import * as React from "react";
-import video from "../../Assets/video.mp4";
-import "./video";
-const Video = () => {
+import video from "../../utilities/video.mp4";
+import "./ProductVideo_styles.css";
+const ProductVideo = () => {
   return (
     <Box className="video-box">
       <Container
@@ -37,4 +37,4 @@ const Video = () => {
     </Box>
   );
 };
-export default Video;
+export default ProductVideo;

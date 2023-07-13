@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./Form.css";
+import "./Form_styles.css";
 const Form = () => {
   return (
     <div className="contact-form-container">
