@@ -9,7 +9,7 @@ import { Grid } from '@mui/material';
 function App() {
   return (
     <div className="App">
-        <About />
+        
         {/* Benefits has some icons that were taken from data.js file from Data folder */}
         <div className="benefit-div">
           {data.map((data) => {
@@ -29,6 +29,7 @@ function App() {
           return <Attribute props={data} />;
         })}
       </Grid>
+      <About />
     </div>
   );
 }
