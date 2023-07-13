@@ -7,6 +7,13 @@ This is a landing page based on the Multor template. It showcases a modern, visu
 You can access the live demo of the Multor landing page [here](https://swqmy8-3000.csb.app/).
 Code sandbox link for the code [Codesandbox link](https://codesandbox.io/p/sandbox/sleepy-carson-swqmy8?file=%2Fpublic%2Findex.html%3A1%2C1)
 
+## Video Demo
+
+You can watch the video demonstration of the Multor landing page by clicking the link below:
+
+**[CometLabs Assignment Landing Page Demo Video](https://share.vidyard.com/watch/JwcsUaj49fhyMZgz8KcPyq?)**
+
+Click the link to view the video.
 ## Description
 
 The Multor landing page is designed for developers with designer minds. It aims to attract talented developers and highlight the company's commitment to creativity and innovation.
@@ -67,7 +74,6 @@ Here are some screenshots of the Multor landing page:
 ![Screenshot 1](./src//utilities/images/Screenshot5.png)
 ![Screenshot 1](./src//utilities/images/Screenshot6.png)
 ![Screenshot 1](./src//utilities/images/Screenshot7.png)
-![Screenshot 2](./screenshots/screenshot2.png)
 
 ## Deployment
 
@@ -77,29 +83,3 @@ The Multor landing page is deployed using codesandbox. You can access the live d
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Video Demo
-
-You can watch the video demonstration of the Multor landing page by clicking the link below:
-
-**[CometLabs Assignment Landing Page Demo Video](https://share.vidyard.com/watch/JwcsUaj49fhyMZgz8KcPyq?)**
-
-Click the link to view the video.
