@@ -1,5 +1,5 @@
 .video-box {
-  width: 90vw;
+  width: 100%;
   margin: 0 auto;
 }
 .heading-video {
@@ -12,6 +12,15 @@
   width: 80vw;
   height: 40vw;
   display: flex;
+}
+.css-1jka7ik-MuiContainer-root{
+  max-width: 1900px !important;
+}
+@media (min-width: 1200px){
+  .css-1jka7ik-MuiContainer-root {
+    height: 50rem;
+    margin-bottom: 25rem;
+}
 }
 .video {
   margin-top: 1em;

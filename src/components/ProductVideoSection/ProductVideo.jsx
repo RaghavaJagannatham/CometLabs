@@ -6,7 +6,7 @@ const ProductVideo = () => {
   return (
     <Box className="video-box">
       <Container
-        style={{ paddingTop: "8em", paddingBottom: "6em" }}
+        style={{ paddingTop: "8em", width:"100%"}}
         sx={{ backgroundColor: "#E8FBFB" }}
       >
         <h1
@@ -14,7 +14,7 @@ const ProductVideo = () => {
           style={{
             textAlign: "center",
             fontWeight: "800",
-            width: "65%",
+            width: "30%",
             margin: "0 auto"
           }}
         >
@@ -23,7 +23,7 @@ const ProductVideo = () => {
         <Typography
           variant="body1"
           align={"center"}
-          style={{ width: "60%", margin: "1em auto" }}
+          style={{ width: "30%", margin: "1em auto" }}
         >
           Include a video or photo from one of your sessions to help people
           understand your service (or just to hype ‘em up).{" "}

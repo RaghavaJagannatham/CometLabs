@@ -3,10 +3,10 @@ import { Grid } from "@mui/material";
 const Testimonials = ({ props }) => {
   return (
     <Grid
-      sx={{ width: 500 }}
+      sx={{ width: 400 }}
       container
       gap={5}
-      margin={2}
+      margin={3}
       direction="row"
       justifyContent="flex-start"
       alignItems="left"
@@ -18,7 +18,7 @@ const Testimonials = ({ props }) => {
         />
         <p style={{ fontStyle: "italic", fontSize: "2em" }}>{props.comment}</p>
       </div>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex"}}>
         <img src={props.profileImg} alt="profile-img" />
         <div style={{ marginLeft: ".9em" }}>
           <p style={{ marginBottom: ".4em" }}>

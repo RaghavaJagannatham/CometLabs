@@ -51,7 +51,7 @@ export default function App() {
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "space-between",
-            width: "90%"
+            width: "60%"
           }}
         >
           {TestimonialData.map((data) => {
