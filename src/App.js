@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials';
 import Testimonialsdata from './Data/testimonialsdata';
 import Footer from './components/Footer/Footer';
 import Form from './components/Form/Form';
+import Video from './components/video/video';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
             })}
             </div>
         </div>
+
+        {/* Video */}
+        <Video />
 
         {/* Testimonials data */}
         <div>
