@@ -1,7 +1,7 @@
-.benefit {
+.benefit-div {
   padding: 4em 0rem;
 }
-.Flexi {
+.Flexi-div {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;

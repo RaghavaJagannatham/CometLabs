@@ -11,6 +11,7 @@ import Testimonialsdata from './Data/testimonialsdata';
 import Footer from './components/Footer/Footer';
 import Form from './components/Form/Form';
 import Video from './components/video/video';
+import './App.css'
 
 function App() {
   return (
