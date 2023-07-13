@@ -5,7 +5,7 @@ This is a landing page based on the Multor template. It showcases a modern, visu
 ## Live Demo
 
 You can access the live demo of the Multor landing page [here](https://th8g48-3000.csb.app/).
-Code sandbox link for the code [](https://codesandbox.io/p/sandbox/sweet-hellman-th8g48?file=%2Fsrc%2FApp.js%3A33%2C24)
+Code sandbox link for the code [Codesandbox link](https://codesandbox.io/p/sandbox/sweet-hellman-th8g48?file=%2Fsrc%2FApp.js%3A33%2C24)
 
 ## Description
 
