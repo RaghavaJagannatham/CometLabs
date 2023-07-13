@@ -62,7 +62,14 @@ To run the project locally, follow these steps:
 
 Here are some screenshots of the Multor landing page:
 
-![Screenshot 1](./screenshots/screenshot1.png)
+![Screenshot 1](./src//utilities/images/About.js.png)
+![Screenshot 1](./src//utilities/images/Screenshot1.png)
+![Screenshot 1](./src//utilities/images/Screenshot2.png)
+![Screenshot 1](./src//utilities/images/Screenshot3.png)
+![Screenshot 1](./src//utilities/images/Screenshot4.png)
+![Screenshot 1](./src//utilities/images/Screenshot5.png)
+![Screenshot 1](./src//utilities/images/Screenshot6.png)
+![Screenshot 1](./src//utilities/images/Screenshot7.png)
 ![Screenshot 2](./screenshots/screenshot2.png)
 
 ## Deployment
